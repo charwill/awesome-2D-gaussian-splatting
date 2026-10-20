@@ -1,7 +1,11 @@
 
+# Awesome 2D Gaussian Splatting
+
+[Awesome-2D-Gaussian-Splatting](https://github.com/charwill/awesome-2D-gaussian-splatting/blob/main/awesome-2D-gaussian-splatting.md)
+
+---
 **Survey Paper:** [Beyond Pixels and Neural Fields: A Survey of 2D Gaussian Splatting for Image and Video Representation and Compression](https://www.alphaxiv.org/pdf/2610.2d-gaussian-splatting-image-video-representation)
 
-[Awesome-2D-Gaussian-Splatting]()
 ---
 ## Citation
 
