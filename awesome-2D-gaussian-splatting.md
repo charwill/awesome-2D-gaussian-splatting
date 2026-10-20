@@ -370,7 +370,7 @@ If you find this list useful, please cite the survey it is based on:
 
 ## Contributing
 
-Contributions are welcome! To add a paper:
+Contributions are welcome:
 
 1. Fork this repository and add a row to the appropriate table, keeping the existing column format.
 2. Include **method name, venue/year, tags, and a one-line core contribution**, plus a paper link if available.
