@@ -2,6 +2,8 @@
 
 # Awesome 2D Gaussian Splatting
 
+**Paper:** [Beyond Pixels and Neural Fields: A Survey of 2D Gaussian Splatting for Image and Video Representation and Compression](https://www.alphaxiv.org/pdf/2610.2d-gaussian-splatting-image-video-representation)
+
 **A curated list of papers on 2D Gaussian Splatting (2DGS) for image and video representation and compression**
 
 ![Awesome](https://img.shields.io/badge/Awesome-List-fc60a8?logo=awesomelists)
