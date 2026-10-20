@@ -353,26 +353,11 @@ PA-G2DS variants:
 If you find this list useful, please cite the survey it is based on:
 
 ```bibtex
-@article{wang2026beyond,
-  title   = {Beyond Pixels and Neural Fields: A Survey of 2D Gaussian Splatting
-             for Image and Video Representation and Compression},
-  author  = {Wang, Miaohui and Huang, Yanji and Wang, Dayong and Xiong, Jian
-             and Chen, Mingkai and Li, Yanshan},
-  year    = {2026}
-}
-```
-
-And the foundational work:
-
-```bibtex
-@inproceedings{zhang2024gaussianimage,
-  title     = {GaussianImage: 1000 FPS Image Representation and Compression
-               by 2D Gaussian Splatting},
-  author    = {Zhang, X. and Ge, X. and Xu, T. and He, D. and Wang, Y.
-               and Qin, H. and Lu, G. and Geng, J. and Zhang, J.},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  pages     = {327--345},
-  year      = {2024}
+@misc{wang20262dgssurvey,
+	title={{Beyond Pixels and Neural Fields: A Survey of 2D Gaussian Splatting for Image and Video Representation and Compression}},
+	author={Wang, Miaohui and Huang, Yanji and Wang, Dayong and Xiong, Jian and Chen, Mingkai and Li, Yanshan},
+  howpublished={\url{https://www.alphaxiv.org/pdf/2610.2d-gaussian-splatting-image-video-representation}},
+	year={2026}
 }
 ```
 
