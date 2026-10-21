@@ -78,10 +78,10 @@ Methods are grouped by the **primary pipeline stage** they address. Categories a
 
 ### Gaussian primitive
 
-Each 2D Gaussian is parameterized by position `mu` (2), covariance `Sigma` (3), color `c` (3) and opacity `o` (1), which gives 9 parameters per Gaussian (vs. 59 for a 3D Gaussian).
+Each 2D Gaussian is parameterized by position `$\mu$` (2), covariance `$\Sigma$` (3), color `$c$` (3) and opacity `$o$` (1), which gives 9 parameters per Gaussian (vs. 59 for a 3D Gaussian).
 
 ```
-G_i(x) = exp( -1/2 (x - mu_i)^T  Sigma_i^{-1}  (x - mu_i) )
+$G_i(x) = exp( -1/2 (x - mu_i)^T  Sigma_i^{-1}  (x - mu_i) )$
 ```
 
 ### Covariance parameterization
@@ -94,16 +94,16 @@ G_i(x) = exp( -1/2 (x - mu_i)^T  Sigma_i^{-1}  (x - mu_i) )
 2DGS needs no camera projection or depth sorting, so alpha blending is replaced by an order-independent weighted sum:
 
 ```
-C(x) = sum_i  c_i * o_i * G_i(x)
+$C(x) = sum_i  c_i * o_i * G_i(x)$
 ```
 
-Color and opacity merge into one weighted color `c~_i = c_i * o_i`, which gives **8 parameters per Gaussian**.
+Color and opacity merge into one weighted color `$c~_i = c_i * o_i$`, which gives **8 parameters per Gaussian**.
 
 ### Compression as rate-distortion optimization
 
 ```
-min_X^  D(X, X^) + lambda * R(X^)
-R_total = N_g * (b_pos + b_cov + b_col + b_op) + R_meta
+$min_X^  D(X, X^) + lambda * R(X^)$
+$R_total = N_g * (b_pos + b_cov + b_col + b_op) + R_meta$
 ```
 
 Bitrate is controlled through the Gaussian count `N_g` and the per-attribute bit budgets.
