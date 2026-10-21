@@ -11,7 +11,7 @@
 
 ![Awesome](https://img.shields.io/badge/Awesome-List-fc60a8?logo=awesomelists)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Papers](https://img.shields.io/badge/Papers-44-blue)
+![Papers](https://img.shields.io/badge/Papers-187-blue)
 ![Updated](https://img.shields.io/badge/Updated-Oct%202026-orange)
 
 *Beyond Pixels and Neural Fields: from transform codecs, to implicit neural representations, to explicit anisotropic 2D Gaussians.*
