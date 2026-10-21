@@ -86,8 +86,8 @@ $G_i(x) = exp( -1/2 (x - mu_i)^T  Sigma_i^{-1}  (x - mu_i) )$
 
 ### Covariance parameterization
 
-- **Rotation-scaling:** `Sigma = R(theta) S S^T R(theta)^T`. Intuitive, but ill-conditioned near isotropy and awkward to quantize.
-- **Cholesky:** `Sigma = L L^T` with three scalars `(l11, l21, l22)`. No angular variable, cheap to evaluate, and quantization-friendly (used by GaussianImage).
+- **Rotation-scaling:** `$Sigma = R(theta) S S^T R(theta)^T$`. Intuitive, but ill-conditioned near isotropy and awkward to quantize.
+- **Cholesky:** `$Sigma = L L^T$` with three scalars `(l11, l21, l22)`. No angular variable, cheap to evaluate, and quantization-friendly (used by GaussianImage).
 
 ### Accumulated-summation rasterization
 
